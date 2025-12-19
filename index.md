@@ -5,6 +5,6 @@
 layout: splash
 author_profile: true
 header:
-  overlay_image: /assets/images/home.jpg
+  overlay_image: /assets/images/IMG_0368.HEIC
   overlay_filter: 0.3
 ---
