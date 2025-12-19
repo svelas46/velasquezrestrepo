@@ -8,6 +8,7 @@ author_profile: false
 classes: wide
 header:
   image: /assets/images/20250509_180142.jpg
+  overlay_filter: 0.7
 ---
 
 
