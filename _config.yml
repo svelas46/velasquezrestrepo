@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Sara Velasquez-Restrepo
+  name   : "Sara Velasquez-Restrepo"
   avatar : "/assets/images/profile.jpg"
   bio    : "Explore here my work and passion for life on Earth!."
   links:
