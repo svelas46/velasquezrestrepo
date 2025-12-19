@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
-author_profile: true
+author_profile: false
 header:
   overlay_image: /assets/images/IMG_0368.HEIC
   overlay_filter: 0.2
