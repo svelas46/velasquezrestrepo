@@ -7,7 +7,7 @@ layout: splash
 author_profile: false
 classes: wide
 header:
-  image: /assets/images/IMG_0368.jpg
+  image: /assets/images/20250509_180142.jpg
 ---
 
 
