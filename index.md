@@ -4,4 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
 author_profile: true
+header:
+  overlay_image: /assets/images/home.jpg
+  overlay_filter: 0.3
 ---
