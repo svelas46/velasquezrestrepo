@@ -8,7 +8,7 @@ author_profile: false
 classes: wide
 header:
   image: /assets/images/foto1.jpg
-  overlay_filter: 0.4
+  overlay_filter: 0.3
 ---
 
 
