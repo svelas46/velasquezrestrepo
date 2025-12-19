@@ -7,3 +7,7 @@ layout: splash
 author_profile: false
 classes: wide
 ---
+<img src="{{ site.baseurl }}/assets/images/IMG_0368.jpg"
+     alt="Homepage image"
+     style="width:100vw; max-width:100%; margin-left:calc(50% - 50vw); margin-bottom:3rem;">
+
