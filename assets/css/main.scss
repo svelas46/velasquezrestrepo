@@ -7,21 +7,19 @@
    SIDEBAR AVATAR (LEFT)
    ================================ */
 
-/* Control size HERE (realistic max) */
+/* Sidebar avatar – MAX size possible */
 .sidebar__left .author__avatar {
-  width: 500px;          /* 👈 this IS the intermediate size */
-  max-width: 100%;
-  margin: 0 auto;        /* center in column */
+  width: 175px;          /* ← this is the ceiling */
+  margin: 0 auto;
   text-align: center;
 }
 
-/* Image fills container */
 .sidebar__left .author__avatar img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 0 !important;
 }
-
 /* Force smaller text on About page */
 .page--about {
   font-size: 0.5rem;
