@@ -9,23 +9,18 @@
   border-radius: 0 !important;
 }
 
-/* Widen avatar container inside LEFT sidebar */
+/* Control size HERE (this is the only knob) */
 .sidebar__left .author__avatar {
-  max-width: 160px;     /* ← you WILL see this change */
-  width: 50%;
+  width: 160px;        /* 👈 change ONLY this */
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* Image fills container safely */
-.sidebar__left .author__avatar img {
-  width: 50%;
-  height: auto;
-  max-width: 50%;
-  display: block;
-}
-
-/* Center avatar */
-.sidebar__left .author__avatar {
   text-align: center;
+}
+
+/* Image simply fills the box */
+.sidebar__left .author__avatar img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
