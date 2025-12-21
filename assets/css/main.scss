@@ -9,19 +9,27 @@
   border-radius: 0 !important;
 }
 
-/* Constrain avatar to sidebar width */
-.sidebar__right .author__avatar {
-  max-width: 200px;   /* 👈 safe size */
+/* Larger avatar */
+.sidebar__right .author__avatar,
+.author__avatar {
+  width: 200px;
+}
+
+/* Image fills container */
+.sidebar__right .author__avatar img,
+.author__avatar img {
   width: 100%;
+  max-width: none;
+}
+
+/* Center avatar in column */
+.author__avatar {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
-/* Image fills container without overflow */
-.sidebar__right .author__avatar img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
+.sidebar__right .author__avatar {
+  display: flex;
+  justify-content: center;
 }
-
