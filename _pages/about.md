@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+classes: about-small-text
 ---
 
 I am an evolutionary biologis deeply interested in the mechanisms driving species genesis, extintion and adaptation in the neotropics, with particular focus in Northern South America. Ever since I was a child, I have been amazed by the biodiversity that surrounds me. I used to go with my father to see the insects that lived in an old wall near our house and spend hours just looking at their different colors, shapes, and habits. As I grew older, I had many experiences in nature, going frequently to my grandfather’s farm and to National Natural Parks. Hand in hand with my father and my grandfather I learned to love and respect all living forms, but above all, they promoted in me the curiosity and desire of exploring to create knowledge and use that knowledge to protect nature. Soon, like many scientists I admired, I wanted to classify all the animals into what I later learned were species, genera and other Linnean categories. I developed a special interest in birds, probably because of their diverse colors, shapes, and songs, but also because from a very young age I was able to closely observe them with binoculars, which triggered my curiosity and my interest to know more about them. This set of experiences led me without any doubts to be a biologist.
