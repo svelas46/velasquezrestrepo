@@ -9,11 +9,17 @@
 /* Make avatar substantially bigger */
 .sidebar__right .author__avatar,
 .author__avatar {
-  width: 400px;
+  width: 300px;
 }
 
 .sidebar__right .author__avatar img,
 .author__avatar img {
   width: 100%;
   max-width: none;
+}
+/* Center avatar in author column */
+.author__avatar {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
