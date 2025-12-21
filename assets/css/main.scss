@@ -5,7 +5,7 @@
 
 /* === Avatar size control (ONE KNOB) === */
 :root {
-  --avatar-size: 185px;   /* 👈 adjust this value */
+  --avatar-size: 200px;   /* 👈 adjust this value */
 }
 
 /* Square avatar */
@@ -17,7 +17,7 @@
 /* Avatar container in LEFT sidebar */
 .sidebar__left .author__avatar {
   width: var(--avatar-size);
-  max-width: 150%;
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
