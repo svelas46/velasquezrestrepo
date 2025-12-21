@@ -3,28 +3,29 @@
 
 @import "minimal-mistakes";
 
-/* === Avatar size control (ONE KNOB) === */
-:root {
-  --avatar-size: 200px;   /* 👈 adjust this value */
-}
-
 /* Square avatar */
 .author__avatar,
 .author__avatar img {
   border-radius: 0 !important;
 }
 
-/* Avatar container in LEFT sidebar */
+/* Widen avatar container inside LEFT sidebar */
 .sidebar__left .author__avatar {
-  width: var(--avatar-size);
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
+  max-width: 200px;     /* ← you WILL see this change */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Image fills container */
+/* Image fills container safely */
 .sidebar__left .author__avatar img {
   width: 100%;
   height: auto;
+  max-width: 100%;
   display: block;
+}
+
+/* Center avatar */
+.sidebar__left .author__avatar {
+  text-align: center;
 }
