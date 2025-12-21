@@ -5,3 +5,8 @@
   width: 140px;
   max-width: none;
 }
+
+/* Force smaller text on About page */
+.page--about {
+  font-size: 0.9rem;
+}
