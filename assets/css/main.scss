@@ -6,8 +6,14 @@
   border-radius: 0 !important;
 }
 
-/* Make avatar bigger */
+/* Make avatar substantially bigger */
+.sidebar__right .author__avatar,
+.author__avatar {
+  width: 200px;
+}
+
+.sidebar__right .author__avatar img,
 .author__avatar img {
-  width: 1000px;
+  width: 100%;
   max-width: none;
 }
