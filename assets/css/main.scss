@@ -9,27 +9,23 @@
   border-radius: 0 !important;
 }
 
-/* Larger avatar */
-.sidebar__right .author__avatar,
-.author__avatar {
-  width: 400px;
-}
-
-/* Image fills container */
-.sidebar__right .author__avatar img,
-.author__avatar img {
-  width: 150%;
-  max-width: none;
-}
-
-/* Center avatar in column */
-.author__avatar {
+/* Widen avatar container inside LEFT sidebar */
+.sidebar__left .author__avatar {
+  max-width: 220px;     /* ← you WILL see this change */
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
-.sidebar__right .author__avatar {
-  display: flex;
-  justify-content: center;
+/* Image fills container safely */
+.sidebar__left .author__avatar img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* Center avatar */
+.sidebar__left .author__avatar {
+  text-align: center;
 }
