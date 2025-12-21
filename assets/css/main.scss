@@ -5,3 +5,9 @@
 .author__avatar img {
   border-radius: 0 !important;
 }
+
+/* Make avatar bigger */
+.author__avatar img {
+  width: 140px;
+  max-width: none;
+}
