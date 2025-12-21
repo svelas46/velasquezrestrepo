@@ -3,22 +3,26 @@
 
 @import "minimal-mistakes";
 
+/* === Avatar size control (ONE KNOB) === */
+:root {
+  --avatar-size: 185px;   /* 👈 adjust this value */
+}
+
 /* Square avatar */
 .author__avatar,
 .author__avatar img {
   border-radius: 0 !important;
 }
 
-/* Control size HERE (this is the only knob) */
+/* Avatar container in LEFT sidebar */
 .sidebar__left .author__avatar {
-  width: 180px;        /* 👈 change ONLY this */
+  width: var(--avatar-size);
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
-/* Image simply fills the box */
+/* Image fills container */
 .sidebar__left .author__avatar img {
   width: 100%;
   height: auto;
