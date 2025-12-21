@@ -2,20 +2,26 @@
 ---
 
 @import "minimal-mistakes";
+
+/* Square avatar */
+.author__avatar,
 .author__avatar img {
   border-radius: 0 !important;
 }
 
-/* Make avatar substantially bigger */
-.sidebar__right .author__avatar,
-.author__avatar {
-  width: 200px;
-}
-
-.sidebar__right .author__avatar img,
-.author__avatar img {
+/* Constrain avatar to sidebar width */
+.sidebar__right .author__avatar {
+  max-width: 160px;   /* 👈 safe size */
   width: 100%;
-  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Image fills container without overflow */
+.sidebar__right .author__avatar img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 
