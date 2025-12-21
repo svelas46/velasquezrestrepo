@@ -11,7 +11,7 @@
 
 /* Widen avatar container inside LEFT sidebar */
 .sidebar__left .author__avatar {
-  max-width: 1600px;     /* ← you WILL see this change */
+  max-width: 160px;     /* ← you WILL see this change */
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -19,9 +19,9 @@
 
 /* Image fills container safely */
 .sidebar__left .author__avatar img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
   display: block;
 }
 
