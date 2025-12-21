@@ -1,31 +1,7 @@
 ---
 ---
-
-@import "minimal-mistakes";
-
-/* Square avatar */
-.author__avatar,
+/* Make avatar bigger */
 .author__avatar img {
-  border-radius: 0 !important;
-}
-
-/* Widen avatar container inside LEFT sidebar */
-.sidebar__left .author__avatar {
-  max-width: 200px;     /* ← you WILL see this change */
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Image fills container safely */
-.sidebar__left .author__avatar img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
-/* Center avatar */
-.sidebar__left .author__avatar {
-  text-align: center;
+  width: 140px;
+  max-width: none;
 }
